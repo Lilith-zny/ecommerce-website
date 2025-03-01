@@ -7,10 +7,10 @@ export default function Hero() {
         <img className="h-[716px] w-full object-cover relative" src={bg} alt="" />
         <div className="container mx-auto max-w-[1320px]">
           <div className="h-[716px]">
-            <div>
-              <div className="absolute top-[225px] right-15 h-[390px] w-[500px] p-10 bg-[#FFF3E3]">
+            <div className="flex justify-center">
+              <div className="absolute top-[225px] md:right-15 h-[390px] w-[300px] md:w-[500px] p-10 bg-[#FFF3E3]">
                 <p className="font-semibold tracking-[2px]">New Arrival</p>
-                <h1 className="text-[#B88E2F] font-bold text-5xl my-4">
+                <h1 className="text-[#B88E2F] font-bold text-3xl md:text-5xl my-4">
                   Discover Our
                   <br />
                   New Collection

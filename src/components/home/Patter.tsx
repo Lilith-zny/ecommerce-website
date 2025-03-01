@@ -7,7 +7,7 @@ export default function Patter() {
   return (
     <>
       <div className="h-[685px]">
-        <div className="conatiner mx-auto max-w-[1320px]">
+        <div className="container mx-auto max-w-[1320px]">
           <div className="flex flex-col p-10 h-[685px]">
             <div className="flex flex-col items-center mb-6">
               <h3 className="font-semibold text-2xl">Browse The Range</h3>
